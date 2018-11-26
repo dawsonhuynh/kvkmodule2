@@ -2,6 +2,7 @@
     "name": "vesource/kvk",
     "description": "vesource kvk",
     "type": "module",
+    "version": "1.0",
     "license": "proprietary",
     "authors": [
         {
