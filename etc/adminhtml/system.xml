@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="kvknl_api" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="999" translate="label">
+			<label>KVK Autocomplete</label>
+			<tab>sales</tab>
+			<resource>Vesource_Kvk::config_vesource_kvk</resource>
+			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>Configuration</label>
+				<field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label" type="select" canRestore="1">
+					<label>Enabled</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="api_key" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="2" translate="label" type="text">
+					<label>Api key</label>
+					<comment/>
+				</field>
+                                <field id="to_top" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="3" translate="label" type="select" canRestore="1">
+					<label>Place Company Name Field To Top</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>				
+			</group>			
+		</section>
+	</system>
+</config>

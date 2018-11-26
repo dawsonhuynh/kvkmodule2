@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<page xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+    <css src="Vesource_Kvk::css/easy-autocomplete.css" />
+    <css src="Vesource_Kvk::css/easy-autocomplete.themes.css" />
+  </head>
+</page>

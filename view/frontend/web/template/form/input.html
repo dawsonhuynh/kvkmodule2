@@ -1,0 +1,15 @@
+<input class="admin__control-text" type="text"
+    data-bind="
+	autoComplete: {options: getOptions($element)},
+        css: additionalClasses, 
+        visible: visible,
+        event: {change: userChanges},
+        value: value,
+        hasFocus: focused,
+        valueUpdate: valueUpdate,
+        attr: {
+            name: inputName,
+            placeholder: placeholder,
+            'aria-describedby': noticeId,            
+            disabled: disabled
+}"/>

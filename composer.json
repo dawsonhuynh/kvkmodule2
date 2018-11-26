@@ -1,0 +1,13 @@
+{
+    "name": "vesource/kvk",
+    "description": "vesource kvk",
+    "type": "module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "nguyen",
+            "email": "nguyenuit@gmail.com"
+        }
+    ],
+    "require": {}
+}
