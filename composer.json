@@ -1,7 +1,8 @@
 {
     "name": "vesource/module-kvk",
     "description": "vesource kvk",
-    "type": "module",
+    "type": "magento2-module",
+    "license": "proprietary",
     "version": "1.0",
     "license": "proprietary",
     "authors": [
