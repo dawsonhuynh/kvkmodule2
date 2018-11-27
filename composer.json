@@ -1,5 +1,5 @@
 {
-    "name": "Vesource/Kvk",
+    "name": "vesource/module-kvk",
     "description": "vesource kvk",
     "type": "module",
     "version": "1.0",
@@ -10,5 +10,14 @@
             "email": "nguyenuit@gmail.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vesource\\Kvk\\": ""
+        }
+    }
 }
