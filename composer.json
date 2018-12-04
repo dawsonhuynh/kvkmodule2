@@ -1,0 +1,23 @@
+{
+    "name": "vesource/module-kvk",
+    "description": "Magento 2 Kvk.nl Api lookup module",
+    "authors": [
+        {
+            "email": "test@vesource.nl",
+            "name": "test"
+        }
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vesource\\Kvk\\": ""
+        }
+    }
+}
