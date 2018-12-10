@@ -7,7 +7,7 @@
 			<resource>Vesource_Kvk::config_vesource_kvk</resource>
 			<group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
 				<label>Configuration</label>
-				<field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label" type="select" canRestore="1">
+				<field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label" type="select">
 					<label>Enable</label>
 					<comment/>
 					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -16,7 +16,7 @@
 					<label>Api key</label>
 					<comment/>
 				</field>
-                                <field id="to_top" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="3" translate="label" type="select" canRestore="1">
+                                <field id="to_top" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="3" translate="label" type="select">
 					<label>Company Position On Top</label>
 					<comment/>
 					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
