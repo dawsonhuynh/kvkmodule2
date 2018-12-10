@@ -13,7 +13,8 @@ interface KvkManagementInterface
 
     /**
      * Set a kvk on the cart     
-     * @param  string $company
+     * @param  string $str
+     * @param  string $mode
      * @return string
      */
     public function getKvkInformation(string $str,string $mode);
