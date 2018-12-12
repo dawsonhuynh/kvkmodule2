@@ -59,7 +59,7 @@ define([
                 arrStreet.push(houseNumberAddition);
             }
                                                                                     
-            var minLength = Math.min(this.streetLength,arrStreet.length);
+            var minLength = Math.min(this.streetLines,arrStreet.length);
             
             for(var i=0;i<minLength;i++){
                 processedStreet[i] = arrStreet[i];
@@ -74,7 +74,7 @@ define([
                 
             }else{
                 //set the rest street field to blank
-                for(var i=0; i < this.streetLength-minLength; i++){
+                for(var i=0; i < this.streetLines-minLength; i++){
                     processedStreet[minLength+i] = '';
                 }
             }
