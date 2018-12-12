@@ -82,7 +82,7 @@ define([
             return processedStreet;
         },        
         update:function(arr){
-            console.log('finish ticket C');
+            console.log('finish ticket D');
             var updateData = {};
             
             if(arr.shortBusinessName){
